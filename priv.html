@@ -14,25 +14,28 @@
       line-height: 1.8;
     }
 
-    /* トップナビ */
     nav {
-      background-color: #ff8c66;
+      background-color: #fff0e0;
       display: flex;
       justify-content: center;
       gap: 2rem;
-      padding: 1rem 0;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
     nav a {
-      color: white;
+      color: #e67355;
       text-decoration: none;
       font-weight: bold;
-      transition: opacity 0.3s;
     }
 
     nav a:hover {
-      opacity: 0.7;
+      text-decoration: underline;
     }
+
 
     header {
       background-color: #ffa07a;
@@ -81,10 +84,10 @@
     <p>「トト@新人歌い手 ファンコミュニティ」</p>
   </header>
   <nav>
-    <a href="/">ホーム</a>
-    <a href="/terms.html">利用規約</a>
-    <a href="/privacy.html">プライバシー方針</a>
-    <a href="/contact.html">お問い合わせ</a>
+    <a href="index.html">🏠 ホーム</a>
+    <a href="tos.html">📖 ToS</a>
+    <a href="priv.html">Privacy Poricy</a>
+    <a href="#contact">✉️ お問い合わせ</a>
   </nav>
 
   <div class="container">
