@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>トトファンコミュニティ 利用規約</title>
   <style>
     body {
@@ -13,31 +13,53 @@
       padding: 0;
       line-height: 1.8;
     }
+
     header {
       background-color: #ffa07a;
       padding: 1.5rem;
       color: white;
       text-align: center;
     }
+
+    nav {
+      background-color: #fff0e0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #e67355;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     .content {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1.5rem;
     }
+
     h1 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
+
     h2 {
       font-size: 1.4rem;
       margin-top: 2rem;
       color: #e67355;
     }
-    h3 {
-      font-size: 1.2rem;
-      margin-top: 1.5rem;
-      color: #cc5533;
-    }
+
     ul {
       padding-left: 1.2rem;
     }
@@ -49,25 +71,26 @@
       padding: 2rem;
       background: #fff0e0;
     }
-    .highlight {
-      background-color: #fff3eb;
-      border-left: 5px solid #ffa07a;
-      padding: 1rem;
-      margin-top: 2rem;
-      font-weight: bold;
-    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>📜トトファンコミュニティ 利用規約（Terms of Service）</h1>
     <p>「トト@新人歌い手 ファンコミュニティ」</p>
   </header>
 
+  <nav>
+    <a href="index.html">🏠 ホーム</a>
+    <a href="tos.html">📖 ToS</a>
+    <a href="priv.html">Privacy Poricy</a>
+    <a href="#contact">✉️ お問い合わせ</a>
+  </nav>
+
   <div class="content">
     <p>本サーバー（以下「当サーバー」）は、「トト@新人歌い手」（以下「運営」）が管理・運営するファンコミュニティです。以下の規約に同意の上、ご利用ください。</p>
 
-    <h2>第1条：目的</h2>
+    <h2 id="rule">第1条：目的</h2>
     <p>当サーバーは、トトの音楽活動を応援するとともに、ファン同士が安心して交流できる、健全かつ楽しいオンラインコミュニティを目指しています。そのために、すべての利用者が互いに敬意を持ち、適切なマナーのもとで参加することが求められます。</p>
 
     <h2>第2条：利用者の責任</h2>
@@ -84,7 +107,7 @@
       <li>Discord利用規約または日本国の法律に違反する行為全般</li>
     </ul>
 
-    <h2>第3条：運営の権限</h2>
+    <h2 id="admin">第3条：運営の権限</h2>
     <ul>
       <li>利用者のメッセージログの確認</li>
       <li>警告、ミュート、キック、一時的なBANまたは永久BAN</li>
@@ -120,12 +143,14 @@
       <li>重大な変更は#お知らせ チャンネルで通知</li>
       <li>利用継続により改定後の規約に同意したとみなされます</li>
     </ul>
+
       <p>皆さんが安心して、笑顔で過ごせる空間を一緒に作っていきましょう。<br>
       ルールを守って、トトさんの活動を心から応援できる素敵なコミュニティを育てていけたら嬉しいです！🎧🐼</p>
-  </div>
 
-  <footer>
-    &copy; 2025 トト@新人歌い手
-  </footer>
+
+    <footer>
+      &copy; 2025 トト@新人歌い手
+    </footer>
+  </div>
 </body>
 </html>
